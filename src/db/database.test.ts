@@ -17,7 +17,7 @@ beforeEach(() => {
 
 /** Legt eine Datenbank so an, wie Version 1 der App sie gespeichert hat. */
 async function createVersion1Database(blockMinutes: number, shortBreakMinutes: number) {
-  const db = await openDB('tagesplan', 1, {
+  const db = await openDB('tagesplan-v1', 1, {
     upgrade(database) {
       for (const name of TABLE_NAMES) database.createObjectStore(name, { keyPath: 'id' })
       database.createObjectStore('local')
