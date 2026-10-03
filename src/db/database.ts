@@ -22,7 +22,9 @@ import type {
   TimerState,
 } from '../model/types'
 
-const DB_NAME = 'tagesplan'
+// Eigene Datenbank für die eingefrorene Version 1 – getrennt von der weiterentwickelten App
+// (gleiche Adresse bahri-a.github.io, sonst würden sich beide eine Datenbank teilen).
+const DB_NAME = 'tagesplan-v1'
 const DB_VERSION = 2
 
 /** Die Tabellen, die später synchronisiert werden könnten (und gesichert werden). */

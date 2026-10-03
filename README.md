@@ -1,3 +1,9 @@
+> **Eingefrorene Version 1 der Web-App** (Stand 2026-10-03, Tag `web-v1` in
+> [bahri-a/tagesplan](https://github.com/bahri-a/tagesplan)). Online unter
+> https://bahri-a.github.io/tagesplan-v1/ – mit eigener, getrennter Datenbank.
+> Daten übertragen: in der anderen App „Sichern“, hier „Wiederherstellen“.
+> Weiterentwickelt wird nur noch bahri-a/tagesplan.
+
 # Tagesplan
 
 Eine ruhige Web-App für deine eigene Arbeitsmethode: **Tag → Hauptaufgaben → Arbeitsblöcke**.

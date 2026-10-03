@@ -27,8 +27,8 @@ export default defineConfig({
       registerType: 'prompt',
       includeAssets: ['favicon.svg', 'icons/apple-touch-icon.png'],
       manifest: {
-        name: 'Tagesplan',
-        short_name: 'Tagesplan',
+        name: 'Tagesplan V1',
+        short_name: 'Tagesplan V1',
         description: 'Hauptaufgaben, Arbeitsblöcke und Pausen – ohne Uhrzeiten.',
         lang: 'de',
         start_url: '.',
